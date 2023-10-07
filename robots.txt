@@ -1,0 +1,7 @@
+User-agent: *
+
+Allow: /
+Disallow: /tmp/
+Disallow: /assets/
+
+Sitemap: https://blog.ohtoai.fun/sitemap.xml

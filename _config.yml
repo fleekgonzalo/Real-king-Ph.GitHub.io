@@ -1,0 +1,119 @@
+title: RK's blog
+description: >
+  不知名211大三在读
+
+domain:
+  - /blog
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+author:
+  type      : # "person" (default), "organization"
+  name      : phrk
+  url       : https://blog.ohtoai.fun/about/
+  avatar    : /assets/avater.png
+  bio       : "Success is not final, failure is not fatal: it is the courage to continue that counts."
+  email     : phrknfish@outlook.com
+  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+  twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+  weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+  telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+  medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
+  zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+  douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
+  linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  github    : Real-king-Ph # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
+
+  
+
+url: https://blog.ohtoai.fun
+
+
+repository: Real-king-Ph/Real-king-Ph.GitHub.io
+repository_tree: master
+
+excerpt_separator: <!--more-->
+
+paginate: 8
+paginate_path: /page:num
+
+markdown: kramdown
+highlighter: rouge
+permalink: date
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      sharing: true
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_subscribe: true
+      pageview: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+
+text_skin: forest
+highlight_theme: tomorrow
+
+toc:
+  selectors: "h2,h3,h4"
+
+mathjax: true
+chart: true 
+mermaid: true
+
+pageview:
+  provider: custom
+
+comments:
+  provider: waline
+  waline:
+    visitor   : true
+    serverURL: "https://waline-one-delta.vercel.app"
+
+license: MIT
+    
+
+analytics:
+  provider: google
+  google:
+    tracking_id: "G-L16XKC0BD0"
+    anonymize_ip: true
+
+ms_clarity: false
+tmp_tag: false
+
+timezone: Asia/Shanghai
+
+sharing:
+  provider: addtoany
+
+search:
+  provider: Algolia
+
+
+algolia:
+  application_id: VH7N4G57G5
+  index_name: blogsearch
+  search_only_api_key: 5ebc4bb6608b9b69f01abc464786729a
+  files_to_exclude: 
+    - "map/*"
+    - "tmp/*"
+    - "TODO/*"
+    - "Friend-Link-House/*"
+    - "about/*"
+    - "archive/*"
+    - "categories/*"

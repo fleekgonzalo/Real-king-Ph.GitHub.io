@@ -1,0 +1,50 @@
+friends:
+  - name:         idealclover
+    url:          https://idealclover.top/
+    avatar:       https://image.idealclover.cn/blog/assets/icon.png
+    discription:  Stay simple, stay naive.
+    feed:         
+
+  - name:         sfc9982 blog
+    url:          https://googles.plus/
+    feed:         https://googles.plus/atom.xml
+    avatar:       https://googles.plus/medias/avatar.png
+
+  - name:         Tan_Yuu
+    url:          https://blog.csdn.net/tan_yuu
+    avatar:       https://tanyuu.github.io/assets/img/avatar.jpg
+    discription:  
+    feed:         https://idealclover.top/feed
+
+  - name:         繁凡さん
+    url:          https://blog.csdn.net/weixin_45697774
+    feed:         https://blog.csdn.net/weixin_45697774/rss/list
+    avatar:       
+
+  - name :        Ryan's Blog
+    feed :        https://blog.ryankert.cc/atom.xml
+    url  :        https://blog.ryankert.cc/
+  
+  - name:         Cysime Moflu
+    discription:  再不会遇见第二个时光
+    url:          https://blog.cysi.me
+    avatar:       https://image.glaceon.net/uploads/202205012353016.jpg
+    feed:         https://blog.cysi.me/index.xml
+
+  - name:         OrangeX4
+    discription:  方橙式,计算机从 '零' 开始
+    url:          https://blog.orangex4.cool/
+    avatar:       https://orangex4.cool/images/icons/profile.jpg
+    feed:         https://blog.orangex4.cool/atom.xml
+  
+  - name:         倚栏听风
+    discription:  小白开发日志
+    url:          https://www.yilantingfeng.site/
+    avatar:       https://www.yilantingfeng.site/wp-content/uploads/2021/03/fav-2.png
+    feed:         https://www.yilantingfeng.site/feed/
+  
+  - name:         鱼竿钓鱼干  
+    discription:  2022年，更多新尝试！！！
+    url:          https://ohmyfish.net/#/
+    avatar:       https://s2.loli.net/2021/12/14/LrRycegSGZ8bzsn.png
+    feed:         https://blog.csdn.net/qq_39354847/rss/list

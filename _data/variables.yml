@@ -1,0 +1,66 @@
+default:
+  text_skin: default
+  highlight_theme: default
+  lang: en
+  paths:
+    root: /
+    home: /
+    archive: /archive/
+    rss: /feed.xml
+  mathjax: false
+  mathjax_autoNumber: false
+  mermaid: false
+  chart: false
+  toc:
+    selectors: "h1,h2,h3"
+  sources: bootcdn
+
+  page:
+    mode: normal
+    type: webpage
+    article_header:
+      align: left
+      theme: light
+    articles:
+      show_cover: true
+      show_excerpt: false
+      show_readmore: false
+      show_info: false
+    show_title: true
+    show_edit_on_github: false
+    show_date: true
+    show_tags: true
+    show_author_profile: false
+    show_subscribe: false
+    full_width: false
+    sharing: false
+    comment: true
+    license: false
+    pageview: true
+    search: default
+
+sources:
+  bootcdn:
+    font_awesome: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.min.css'
+    jquery: 'https://cdn.bootcdn.net/ajax/libs/jquery/3.1.1/jquery.min.js'
+    leancloud_js_sdk: '//cdn.jsdelivr.net/npm/leancloud-storage@3.13.2/dist/av-min.js'
+    chart: 'https://cdn.bootcdn.net/ajax/libs/Chart.js/4.4.0/chart.umd.min.js'
+    gitalk:
+      js: 'https://cdn.bootcdn.net/ajax/libs/gitalk/1.2.2/gitalk.min.js'
+      css: 'https://cdn.bootcdn.net/ajax/libs/gitalk/1.2.2/gitalk.min.css'
+    valine: 'https://unpkg.com/valine/dist/Valine.min.js'
+    mathjax: 'https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.0/es5/tex-chtml.js'
+    mermaid: 'https://cdn.bootcdn.net/ajax/libs/mermaid/10.4.0/mermaid.min.js'
+    waline: 'https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.js'
+  unpkg:
+    font_awesome: 'https://use.fontawesome.com/releases/v6.4.2/css/all.css'
+    jquery: 'https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'
+    leancloud_js_sdk: '//cdn.jsdelivr.net/npm/leancloud-storage@3.13.2/dist/av-min.js'
+    chart: 'https://unpkg.com/browse/chart.js@4.4.0/dist/chart.umd.js'
+    gitalk:
+      js: 'https://unpkg.com/gitalk@1.2.2/dist/gitalk.min.js'
+      css: 'https://unpkg.com/gitalk@1.2.2/dist/gitalk.css'
+    valine: 'https//unpkg.com/valine/dist/Valine.min.js'
+    mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+    mermaid: 'https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js'
+    waline: 'https://unpkg.com/@waline/client/dist/waline.js'

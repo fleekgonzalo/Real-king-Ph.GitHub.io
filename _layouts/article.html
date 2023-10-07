@@ -1,0 +1,44 @@
+---
+layout: page
+type: article
+---
+
+
+
+{%- include snippets/assign.html
+target = site.data.variables.default.page.sharing
+source0=layout.sharing source1=page.sharing -%}
+{%- assign _sharing = __return -%}
+
+<div class="layout--article">
+  {%- include article/top/custom.html -%}
+
+  <div class="article__content" itemprop="articleBody">{{ content }}</div>
+
+  {%- if _sharing -%}
+  <section class="article__sharing d-print-none">{%- include sharing.html -%}</section>
+  {%- endif -%}
+
+  <div class="d-print-none">
+    {%- include article-footer.html -%}
+    {%- include article-section-navigator.html -%}
+  </div>
+
+</div>
+
+<script src="/assets/scripts/article.js">
+</script>
+
+
+<div class="post-categories">
+  {% if post %}
+  {% assign categories = post.categories %}
+  {% else %}
+  {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a class="button button--outline-secondary button--pill"
+    href="{{site.baseurl}}/categories/{{category}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>

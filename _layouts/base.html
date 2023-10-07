@@ -1,0 +1,28 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+{%- include snippets/get-lang.html -%}
+<html lang="{{ __return }}">
+  <head>
+    {%- include analytics.html -%}
+    {%- include head.html -%}
+
+    <script src="/assets/scripts/utils/utils.js"></script>
+    <script src = "/assets/scripts/lib/throttle.js"></script>
+    <script src = "/assets/scripts/lib/lazyload.js"></script>
+
+    <!-- ms clarity -->
+    {%- if page.ms_clarity -%}
+      {% include ms_clarity.html %}
+    {%- endif -%}
+
+    {%- include scripts/variables.html -%}
+  </head>
+  <body>
+    <div class="root" data-is-touch="false">
+      {{ content }}
+    </div>
+    <script src="/assets/scripts/common.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{%- include snippets/get-sources.html -%}
+{%- assign _sources = __return -%}
+
+<script>
+   MathJax = {
+      tex: {
+         inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+   };
+</script>
+<script type="text/javascript"  id="MathJax-script" src="{{ _sources.mathjax }}" async></script>
