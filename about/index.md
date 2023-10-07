@@ -32,9 +32,9 @@ article_header:
 (() => console.log('Welcome!'))();
 {% endhighlight %}
 
-计算机大三本科在读
+计算机大三本科在读 
 
-ICPC - 铜
+ICPC - 铜 ， 数据库方向
 
 希望安稳度过最后一年的大学生活，找到心仪的工作
 

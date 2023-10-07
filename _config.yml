@@ -71,9 +71,9 @@ highlight_theme: tomorrow
 toc:
   selectors: "h2,h3,h4"
 
-mathjax: true
-chart: true 
-mermaid: true
+mathjax: false
+chart: false
+mermaid: false
 
 pageview:
   provider: custom
