@@ -61,14 +61,3 @@ timeline
              : Lecture 4
       10.09  : Lecture 5
 ```
-
-### Lecture # 03 - 04 Database Storage
-
-[<i class="fa-solid fa-database"></i> Lecture # 03-04 Database Storage](/cmu15-445/2023/10/08/Lecture-3-4-Database-Storage.html){:.button.button--outline-secondary.button--pill}
-
-
-### Lectrue # 05 Storage Models & Compression
-
-### Lectrue # 06 Memory Management
-
-### Lectrue
