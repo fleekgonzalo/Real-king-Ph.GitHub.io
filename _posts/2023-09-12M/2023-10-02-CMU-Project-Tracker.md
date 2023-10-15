@@ -12,6 +12,8 @@ tags:
 last_modified_at: "2023-10-09 00:36:51"
 ---
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5mg3VB3Qh7jcR5kAAC4DSV?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ## Fall2022 Project
 
 ```mermaid
