@@ -19,9 +19,20 @@ chart: false
 mermaid: false
 ---
 
+## 剧情PV
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/bdduDpNxknE" title="《原神》剧情PV-「清泉之心」" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+人们望向流水，叹息时光匆匆流淌。
+而在清泉停驻的村庄，情思如湖光般澄亮。
+
+> “等待的时候是不觉得苦的，可是如果你真的回头了，我会觉得这一路的等待还是漫长了些。”
+
+## 游戏文本
+
 [<i class="fa-brands fa-wikipedia-w fa-bounce"></i>HoyoWiki!](https://wiki.hoyolab.com/pc/genshin/entry/2323){:.button.button--outline-secondary.button--pill}
 
-## 第一卷
+### 第一卷
 
 清泉镇猎人们口口相传的传说故事，讲述了泉水精灵与不知名少年的相遇。  
 如水的月光下，流泪的少年对清泉许下愿望。    
@@ -47,7 +58,7 @@ mermaid: false
 -----
 
 
-## 第二卷
+### 第二卷
 清泉镇猎人们口口相传的传说故事，讲述了泉水精灵与少年的相识。  
 望着涟漪中破碎的月光，少年向泉水倾诉真心。  
 从他的话语中，她得知了他的许多故事。  
@@ -70,7 +81,7 @@ mermaid: false
 -----
 
 
-## 第三卷
+### 第三卷
 清泉镇猎人们口口相传的传说故事，讲述了泉水精灵与少年许下诺言的故事。  
 当夜风停止吹拂，池中的月亮复归圆满，少年第一次听到了精灵的声音。  
 精灵生来便是比人类更加纤细而敏感的生灵，少年不禁为她哀歌一般温柔的语言入迷。  
@@ -95,7 +106,7 @@ mermaid: false
 -----
 
 
-## 第四卷
+### 第四卷
 清泉镇猎人们口口相传的传说故事，不再是少年的少年与不老的精灵终于面对苦涩的缺憾结局。  
 后来，再后来，少年渐渐成长，交了新的朋友，有了新的经历。  
 泉水的精灵依旧如同年轻时那样，为他安静地唱着每一首温柔的哀歌。  
