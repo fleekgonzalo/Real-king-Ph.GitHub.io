@@ -9,7 +9,7 @@ tags:
   - 数据库
   - C++
   - Trie_Tree
-last_modified_at: "2023-10-09 00:36:51"
+last_modified_at: "2023-10-19 14:56:25"
 ---
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5mg3VB3Qh7jcR5kAAC4DSV?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -63,3 +63,5 @@ timeline
              : Lecture 4
       10.09  : Lecture 5
 ```
+
+[<i class="fa-regular fa-note-sticky"></i> Lecture #05: Storage Models & Compression](/cmu15-445/2023/10/19/Lecture-5-Storage-Models-Compression.html){:.button.button--outline-secondary.button--pill}
