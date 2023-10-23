@@ -1,9 +1,9 @@
 ---
 layout: article
 
-title: "Lecture #5: Storage Models & Cmpression"
+title: "Lecture #5: Storage Models & Compression"
 date: "2023-10-19 13:42:33"
-last_modified_at : "2023-10-19 16:20:05"
+last_modified_at : "2023-10-23 13:58:13 +08:00"
 tags:
  [
     "数据库",
@@ -17,10 +17,32 @@ categories:
 # 写作插件
 mathjax: false
 chart: false
-mermaid: false
+mermaid: true
 ---
 
-[refer to Slide](https://15445.courses.cs.cmu.edu/fall2022/slides/05-storage3.pdf) [refer to Note](https://15445.courses.cs.cmu.edu/fall2022/notes/05-storage3.pdf)
+[refer to Slide](https://15445.courses.cs.cmu.edu/fall2022/slides/05-storage3.pdf) 
+
+[refer to Note](https://15445.courses.cs.cmu.edu/fall2022/notes/05-storage3.pdf)
+
+```mermaid
+mindmap
+root((Lecture 5))
+  Workloads
+    OLTP
+    OLAP
+    HTAP
+  Storage Models
+    N-Ary
+    DSM
+  Columnar Compression
+    Run-Length Encoding
+    Bit-Packing Encoding
+    Delta Encoding
+    Incremental Encoding
+    Dictionary Encoding
+
+
+```
 
 ## Database workloads
 
@@ -48,6 +70,7 @@ Hybrid Transaction + Analytical Processing
 
 ![OLTP OLAP HTAP](https://s2.loli.net/2023/10/19/VGxJ9U7pNbZWYMe.png)  
 
+----
 
 ## Stroage Models
 
