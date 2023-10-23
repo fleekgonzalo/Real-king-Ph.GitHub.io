@@ -21,7 +21,7 @@ mermaid: false
 
 ## 剧情PV
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/bdduDpNxknE" title="《原神》剧情PV-「清泉之心」" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/bdduDpNxknE" title="《原神》剧情PV-「清泉之心」" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 人们望向流水，叹息时光匆匆流淌。
 而在清泉停驻的村庄，情思如湖光般澄亮。
