@@ -68,4 +68,4 @@ timeline
 
 [<i class="fa-regular fa-note-sticky"></i> Lecture #05: Storage Models & Compression](/cmu15-445/2023/10/19/Lecture-5-Storage-Models-Compression.html){:.button.button--outline-secondary.button--pill}
 
-[<i class="fa-regular fa-note-sticky"></i> Lecture #06: Memory Managementf](cmu15-445/2023/10/23/Lecture-6-Memory-Management.html){:.button.button--outline-secondary.button--pill}
+[<i class="fa-regular fa-note-sticky"></i> Lecture #06: Memory Management](/cmu15-445/2023/10/23/Lecture-6-Memory-Management.html){:.button.button--outline-secondary.button--pill}
