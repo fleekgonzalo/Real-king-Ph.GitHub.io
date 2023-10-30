@@ -63,7 +63,7 @@ timeline
       10.07  : Lecture 3
              : Lecture 4
       10.09  : Lecture 5
-      10.23  : Lectrue 6
+      10.27  : Lectrue 6
 ```
 
 [<i class="fa-regular fa-note-sticky"></i> Lecture #05: Storage Models & Compression](/cmu15-445/2023/10/19/Lecture-5-Storage-Models-Compression.html){:.button.button--outline-secondary.button--pill}
