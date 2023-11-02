@@ -19,3 +19,7 @@ mathjax: false
 chart: false
 mermaid: false
 ---
+
+[<i class="fa-solid fa-link"></i> Tracker](/cmu15-445/2023/10/02/CMU-Project-Tracker.html){:.button.button--outline-secondary.button--pill}
+
+------

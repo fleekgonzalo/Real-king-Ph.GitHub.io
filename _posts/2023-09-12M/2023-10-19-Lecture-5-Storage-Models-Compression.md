@@ -20,6 +20,8 @@ chart: false
 mermaid: true
 ---
 
+[<i class="fa-solid fa-link"></i> Tracker](/cmu15-445/2023/10/02/CMU-Project-Tracker.html){:.button.button--outline-secondary.button--pill}
+
 [refer to Slide](https://15445.courses.cs.cmu.edu/fall2022/slides/05-storage3.pdf) 
 
 [refer to Note](https://15445.courses.cs.cmu.edu/fall2022/notes/05-storage3.pdf)

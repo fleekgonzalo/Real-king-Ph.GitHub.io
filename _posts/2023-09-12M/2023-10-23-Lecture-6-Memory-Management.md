@@ -20,6 +20,8 @@ chart: false
 mermaid: false
 ---
 
+[<i class="fa-solid fa-link"></i> Tracker](/cmu15-445/2023/10/02/CMU-Project-Tracker.html){:.button.button--outline-secondary.button--pill}
+
 TODO: <https://youtu.be/Y9H2HaRKOIw?list=PLSE8ODhjZXjaKScG3l0nuOiDTTqpfnWFf&t=1141>
 
 ## 1. Introduction
