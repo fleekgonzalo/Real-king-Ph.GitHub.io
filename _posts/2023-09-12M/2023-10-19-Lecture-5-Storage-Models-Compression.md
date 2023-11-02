@@ -1,7 +1,7 @@
 ---
 layout: article
 
-title: "Lecture #5: Storage Models & Compression"
+title: "Lecture #05: Storage Models & Compression"
 date: "2023-10-19 13:42:33"
 last_modified_at : "2023-10-23 13:58:13 +08:00"
 tags:
