@@ -35,15 +35,15 @@ TODO: <https://youtu.be/Y9H2HaRKOIw?list=PLSE8ODhjZXjaKScG3l0nuOiDTTqpfnWFf&t=11
 
 - 对于 DBMS 来说，在进行操作数据之前需要将所有的的数据从 Disk 先转移到 Memory 中才可以进行操作。
   
-  <blockquote class="imgur-embed-pub" lang="en" data-id="Fb6bfcD"><a href="https://imgur.com/Fb6bfcD">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+  ![](https://imgur.com/Fb6bfcD.png)
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="x6oYq9T"><a href="https://imgur.com/x6oYq9T">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/x6oYq9T.png)
 
 ----
 
 ## 2. Locks vs. Latches
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="YG9cxAA"><a href="https://imgur.com/YG9cxAA">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/YG9cxAA.png)
 
 ----
 
@@ -58,11 +58,11 @@ Memory 中存储的是一个个固定大小的 pages。
 
 Dirty pages 不会立刻写回。(Write-Back Cache)
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="zYv4D0C"><a href="https://imgur.com/zYv4D0C">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/zYv4D0C.png)
 
 ### Buffer Pool Meta-data
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="vRnMHx4"><a href="https://imgur.com/vRnMHx4">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/vRnMHx4.png)
 
 _page table_ 是用来跟踪哪些 pages 在 memory 中。
 

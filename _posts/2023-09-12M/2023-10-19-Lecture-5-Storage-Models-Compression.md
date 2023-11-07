@@ -91,7 +91,7 @@ Advantages:
 Disadvantages:
 - 对于需要扫描整个表或者只需要一个属性的查询非常不好
 
-> <blockquote class="imgur-embed-pub" lang="en" data-id="zMMWPiu"><a href="https://imgur.com/zMMWPiu">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+> ![](https://imgur.com/zMMWPiu.png)
 
 ### Decompositrion Storage Model (DSM)
 
@@ -101,7 +101,7 @@ Disadvantages:
 
 对于只读的 OLAP 操作非常友好，尤其是那些只需要扫描部分 `attributes` 的操作来说。
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="iONtz5L"><a href="https://imgur.com/iONtz5L">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/iONtz5L.png)
 
 Advantages:
 - 减少 I/O 的浪费
@@ -115,7 +115,7 @@ Disadvantages:
 1. 为每个属性设置固定的字长，这样我们只需要得到 `offset` 就可以准确的查找到我们所需要的数据
 2. 一个更为罕见的操作是，使用一个形如 `(id : pos)` 的 tuple 来存储值，表示第 `id` 的值存储在 `pos` 位置上。
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="IedfkNq"><a href="https://imgur.com/IedfkNq">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/IedfkNq.png)
 
 ## Database Compression
 
@@ -138,11 +138,11 @@ provided as input:
 → LZO (1996), LZ4 (2011), Snappy (2011),
 Oracle OZIP (2014), Zstd (2015)
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="btfm5p9"><a href="https://imgur.com/btfm5p9">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/btfm5p9.png)
 
 为了提高速度，我们需要另外的压缩方法，即使是在压缩之后，我们也有办法获取其中的信息来加速。
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="gmB5Ith"><a href="https://imgur.com/gmB5Ith">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/gmB5Ith.png)
 
 ## Columnar Compression
 
@@ -156,21 +156,21 @@ Oracle OZIP (2014), Zstd (2015)
 3. `num` 表示该值重复的次数
 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="4UVuuqG"><a href="https://imgur.com/4UVuuqG">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/4UVuuqG.png)
 
 > 不过该方法可能存在一些缺陷
 > 
-> <blockquote class="imgur-embed-pub" lang="en" data-id="odwQgWe"><a href="https://imgur.com/odwQgWe">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+> ![](https://imgur.com/odwQgWe.png)
 >
 > 经过转换后
 > 
-> <blockquote class="imgur-embed-pub" lang="en" data-id="WFfzLgP"><a href="https://imgur.com/WFfzLgP">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+> ![](https://imgur.com/WFfzLgP.png)
 
 ### Bit-Packing Encoding
 
 一些数据对我们来说是十分冗余的，我们可以通过 Bit-Packing 的方式来减少这些冗余。
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="WLI2OFf"><a href="https://imgur.com/WLI2OFf">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/WLI2OFf.png)
 
 将 `int64` 转换为 `int8` 大大减少了需要的空间。
 
@@ -178,7 +178,7 @@ Oracle OZIP (2014), Zstd (2015)
 
 因此，我们需要如下的方式进行存储。
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="K8lQr8R"><a href="https://imgur.com/K8lQr8R">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/K8lQr8R.png)
 
 不过该方法只能在额外存储信息较少的时候进行使用。
 
@@ -188,7 +188,7 @@ Oracle OZIP (2014), Zstd (2015)
 
 例如，只存在 `F` 和 `M` 两种值的时候，我们就可以是由 `01` 来表示是或者不是。
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="PNmEvKe"><a href="https://imgur.com/PNmEvKe">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/PNmEvKe.png)
 
 ### Delta Encoding
 
@@ -196,13 +196,13 @@ Oracle OZIP (2014), Zstd (2015)
 
 因此我们通过确定一个值后，往后的所有值都可以通过 `delta` 的形式存储
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="XQe8W5Y"><a href="https://imgur.com/XQe8W5Y">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/XQe8W5Y.png)
 
 ### Incremental Encoding
 
 我们通常也可以通过取 **前缀 / 后缀** 的形式来得到我们的最终结果。
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="oM9zEKa"><a href="https://imgur.com/oM9zEKa">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/oM9zEKa.png)
 
 
 
@@ -210,7 +210,7 @@ Oracle OZIP (2014), Zstd (2015)
 
 当一张表中可能存在多个值，且这多个值存在在不同的地方，那么我们就可以通过字典的形式得到这些值所在的位置。
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="GgSgrMr"><a href="https://imgur.com/GgSgrMr">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/GgSgrMr.png)
 
 这也是最常用的压缩方法。
 
