@@ -16,37 +16,30 @@
     --waline-theme-color: #7cc7bb;
     --waline-active-color: #4dc3ad;
   }
-  .wl-content .vemoji, .wl-content .wl-emoji {
+  .wl-emoji {
     font-size: 3em;
   }
   .wl-card .wl-content {
     font-size: 1.2em;
   }
+  .wl-user {
+    width: 2.8em;
+  }
 </style>
 
-<script>
-  window.Lazyload.js(['{{ _sources.leancloud_js_sdk }}', '{{ _sources.waline }}'], function() {
-    var _config = {
-      el: '#wcomments',
-      serverURL: '{{ _WALINE_SERVERURL }}',
-      emoji: [
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+  init({
+    el: '#wcomments',
+    serverURL: '{{ _WALINE_SERVERURL }}',
+    emoji: [
         'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
         'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
         'https://cdn.jsdelivr.net/gh/Real-king-Ph/emoji/hoyo_emoji',
         'https://unpkg.com/@waline/emojis@1.2.0/tw-emoji'
       ],
-      imageUploader: false,
-    };
-    {%- if _WALINE_PLACEHOLDER -%}
-      _config.placeholder = '{{ _WALINE_PLACEHOLDER }}';
-    {%- endif -%}
-    {%- if _WALINE_VISITOR -%}
-      _config.pageview = true;
-    {%- endif -%}
-    {%- if _WALINE_META -%}
-      _config.meta = {{ _WALINE_META}};
-    {%- endif -%}
-    Waline.init(_config);
+    imageUploader: false,
   });
 </script>
 
