@@ -20,7 +20,7 @@ chart: false
 mermaid: false
 ---
 
-[<i class="fa-solid fa-link"></i> Tracker](/cmu15-445/2023/10/02/CMU-Project-Tracker.html){:.button.button--outline-secondary.button--pill}
+[<i class="fa-solid fa-link"></i> Tracker](https://blog.ohtoai.fun/cmu15-445/2023/10/02/CMU-Project-Tracker.html){:.button.button--outline-secondary.button--pill}
 
 TODO: <https://youtu.be/Y9H2HaRKOIw?list=PLSE8ODhjZXjaKScG3l0nuOiDTTqpfnWFf&t=1141>
 
@@ -34,16 +34,19 @@ TODO: <https://youtu.be/Y9H2HaRKOIw?list=PLSE8ODhjZXjaKScG3l0nuOiDTTqpfnWFf&t=11
 快速操作：
 
 - 对于 DBMS 来说，在进行操作数据之前需要将所有的的数据从 Disk 先转移到 Memory 中才可以进行操作。
-  
-  ![](https://imgur.com/Fb6bfcD.png)
+  ![image](https://cdn.ipfsscan.io/ipfs/QmQj1jJ4oBaTXGSq2FYcHZKNz2y2aN3TmjcJqDECtCAxkq)
 
-![](https://imgur.com/x6oYq9T.png)
+
+
+![image](https://cdn.ipfsscan.io/ipfs/QmSFSzXFhUmf3Md5ruAg9PNNQwDQo82TH3a2sbDuLduuPS)
 
 ----
 
 ## 2. Locks vs. Latches
 
-![](https://imgur.com/YG9cxAA.png)
+
+![image](https://cdn.ipfsscan.io/ipfs/Qmd4Ru91wEckAkCukc6gooxtsF5uid8wTkFNTRDsUz1MdD)
+
 
 ----
 
@@ -58,11 +61,14 @@ Memory 中存储的是一个个固定大小的 pages。
 
 Dirty pages 不会立刻写回。(Write-Back Cache)
 
-![](https://imgur.com/zYv4D0C.png)
+![image](https://cdn.ipfsscan.io/ipfs/QmZcfwGcz4kqLbfRsiMFjp7d2c9UVK7RvrxfyoEHuNAezh)
+
 
 ### Buffer Pool Meta-data
 
-![](https://imgur.com/vRnMHx4.png)
+
+![image](https://cdn.ipfsscan.io/ipfs/QmeudvGi34M1W8gBkn6meRA8vFCWSnYqpcfWgrqAu4GXzT)
+
 
 _page table_ 是用来跟踪哪些 pages 在 memory 中。
 
