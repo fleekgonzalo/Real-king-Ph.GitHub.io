@@ -1,4 +1,4 @@
-
+{%- if jekyll.environment != 'development' -%}
 {%- if page.tmp_tag != true -%}
   {%- if site.comments.provider == 'disqus' -%}
     {%- include comments-providers/disqus.html -%}
@@ -11,4 +11,5 @@
   {%- elsif site.comments.provider == 'custom' -%}
     {%- include comments-providers/custom.html -%}
   {%- endif -%}
+{%- endif -%}
 {%- endif -%}
