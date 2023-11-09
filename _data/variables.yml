@@ -51,7 +51,7 @@ sources:
     valine: 'https://unpkg.com/valine/dist/Valine.min.js'
     mathjax: 'https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.0/es5/tex-chtml.js'
     mermaid: 'https://cdn.bootcdn.net/ajax/libs/mermaid/10.4.0/mermaid.min.js'
-    waline: 'https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.mjs'
+    waline: 'https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.js'
   unpkg:
     font_awesome: 'https://use.fontawesome.com/releases/v6.4.2/css/all.css'
     jquery: 'https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'
@@ -63,4 +63,4 @@ sources:
     valine: 'https//unpkg.com/valine/dist/Valine.min.js'
     mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
     mermaid: 'https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js'
-    waline: 'https://unpkg.com/@waline/client@v2/dist/waline.mjs'
+    waline: 'https://unpkg.com/@waline/client@v2/dist/waline.js'
